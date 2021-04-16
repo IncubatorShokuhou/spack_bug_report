@@ -1,0 +1,404 @@
+==> openmpi: Executing phase: 'autoreconf'
+==> openmpi: Executing phase: 'configure'
+==> [2021-04-16-15:47:17.948280] '/data_1/intel/oneapi/compiler/2021.2.0/linux/bin/intel64/icpc' '-v' '/tmp/spack-implicit-link-infor5ynss8p/main.c' '-o' '/tmp/spack-implicit-link-infor5ynss8p/output'
+==> [2021-04-16-15:47:18.066879] parsing implicit link info
+==> [2021-04-16-15:47:18.067093] linker line: ld    /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o /tmp/spack-implicit-link-infor5ynss8p/output -L/data_1/intel/oneapi/compiler/2021.2.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-linux-gnu/7/ -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/ -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/ -L/lib/x86_64-linux-gnu/ -L/lib/../lib64 -L/lib/../lib/ -L/usr/lib/x86_64-linux-gnu/ -L/usr/lib/../lib/ -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../ -L/lib64 -L/lib/ -L/usr/lib -L/usr/lib/i386-linux-gnu /tmp/icpc09cnms.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal -Bdynamic -lstdc++ -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+==> [2021-04-16-15:47:18.067139] linkdir: /data_1/intel/oneapi/compiler/2021.2.0/linux/bin/intel64/../../compiler/lib/intel64_lin
+==> [2021-04-16-15:47:18.067162] linkdir: /usr/lib/gcc/x86_64-linux-gnu/7/
+==> [2021-04-16-15:47:18.067182] linkdir: /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/
+==> [2021-04-16-15:47:18.067200] linkdir: /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/
+==> [2021-04-16-15:47:18.067217] linkdir: /lib/x86_64-linux-gnu/
+==> [2021-04-16-15:47:18.067233] linkdir: /lib/../lib64
+==> [2021-04-16-15:47:18.067249] linkdir: /lib/../lib/
+==> [2021-04-16-15:47:18.067264] linkdir: /usr/lib/x86_64-linux-gnu/
+==> [2021-04-16-15:47:18.067280] linkdir: /usr/lib/../lib/
+==> [2021-04-16-15:47:18.067295] linkdir: /usr/lib/gcc/x86_64-linux-gnu/7/../../../
+==> [2021-04-16-15:47:18.067310] linkdir: /lib64
+==> [2021-04-16-15:47:18.067326] linkdir: /lib/
+==> [2021-04-16-15:47:18.067341] linkdir: /usr/lib
+==> [2021-04-16-15:47:18.067356] linkdir: /usr/lib/i386-linux-gnu
+==> [2021-04-16-15:47:18.067383] found raw link dirs: /data_1/intel/oneapi/compiler/2021.2.0/linux/bin/intel64/../../compiler/lib/intel64_lin, /usr/lib/gcc/x86_64-linux-gnu/7/, /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/, /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/, /lib/x86_64-linux-gnu/, /lib/../lib64, /lib/../lib/, /usr/lib/x86_64-linux-gnu/, /usr/lib/../lib/, /usr/lib/gcc/x86_64-linux-gnu/7/../../../, /lib64, /lib/, /usr/lib, /usr/lib/i386-linux-gnu
+==> [2021-04-16-15:47:18.067455] found link dirs: /data_1/intel/oneapi/compiler/2021.2.0/linux/compiler/lib/intel64_lin, /usr/lib/gcc/x86_64-linux-gnu/7, /usr/lib/x86_64-linux-gnu, /usr/lib, /lib/x86_64-linux-gnu, /lib64, /lib, /usr/lib/i386-linux-gnu
+==> [2021-04-16-15:47:18.069405] '/tmp/em/spack-stage/spack-stage-openmpi-4.0.5-saqjvxaf7mcte6czlvpbul3dd3wnxfph/spack-src/configure' '--prefix=/data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/openmpi-4.0.5-saqjvxaf7mcte6czlvpbul3dd3wnxfph' '--enable-shared' '--disable-silent-rules' '--disable-builtin-atomics' '--enable-static' '--without-pmi' '--with-zlib=/data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/zlib-1.2.11-wi65tbqdpu6437b5tacunmf6krbr2pur' '--enable-mpi1-compatibility' '--without-ucx' '--without-ofi' '--without-fca' '--without-cma' '--without-psm2' '--without-xpmem' '--without-hcoll' '--without-psm' '--without-verbs' '--without-knem' '--without-mxm' '--without-loadleveler' '--without-alps' '--without-slurm' '--without-tm' '--without-sge' '--without-lsf' '--disable-memchecker' '--with-libevent=/data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/libevent-2.1.12-36urskiv2wbeaknyj4twmxnmnrcjfojy' '--with-hwloc=/data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/hwloc-2.4.1-fsxovz7heonfub2tfucqlfecv7w5vmxj' '--disable-java' '--disable-mpi-java' '--without-cuda' '--enable-wrapper-rpath' '--disable-wrapper-runpath' '--disable-mpi-cxx' '--disable-cxx-exceptions' '--with-wrapper-ldflags=-Wl,-rpath,/data_1/intel/oneapi/compiler/2021.2.0/linux/compiler/lib/intel64_lin'
+configure: WARNING: unrecognized options: --without-loadleveler, --disable-java
+checking for perl... perl
+
+============================================================================
+== Configuring Open MPI
+============================================================================
+
+*** Startup tests
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for gcc... /data_1/spack/lib/spack/env/intel/icc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /data_1/spack/lib/spack/env/intel/icc accepts -g... yes
+checking for /data_1/spack/lib/spack/env/intel/icc option to accept ISO C89... none needed
+checking whether /data_1/spack/lib/spack/env/intel/icc understands -c and -o together... yes
+checking how to run the C preprocessor... /data_1/spack/lib/spack/env/intel/icc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '134' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of /data_1/spack/lib/spack/env/intel/icc... gcc3
+checking whether make supports nested variables... (cached) yes
+
+*** Checking versions
+checking for repo version... v4.0.5
+checking Open MPI version... 4.0.5
+checking Open MPI release date... Aug 26, 2020
+checking Open MPI repository version... v4.0.5
+checking for repo version... v4.0.5
+checking Open MPI Run-Time Environment version... 4.0.5
+checking Open MPI Run-Time Environment release date... Aug 26, 2020
+checking Open MPI Run-Time Environment repository version... v4.0.5
+checking for repo version... v4.0.5
+checking Open SHMEM version... 4.0.5
+checking Open SHMEM release date... Aug 26, 2020
+checking Open SHMEM repository version... v4.0.5
+checking for repo version... v4.0.5
+checking Open Portable Access Layer version... 4.0.5
+checking Open Portable Access Layer release date... Aug 26, 2020
+checking Open Portable Access Layer repository version... v4.0.5
+checking for bootstrap Autoconf version... 2.69
+checking for bootstrap Automake version... 1.15
+checking for boostrap Libtool version... 2.4.6
+
+*** Initialization, setup
+configure: builddir: /tmp/em/spack-stage/spack-stage-openmpi-4.0.5-saqjvxaf7mcte6czlvpbul3dd3wnxfph/spack-src
+configure: srcdir: /tmp/em/spack-stage/spack-stage-openmpi-4.0.5-saqjvxaf7mcte6czlvpbul3dd3wnxfph/spack-src
+installing to directory "/data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/openmpi-4.0.5-saqjvxaf7mcte6czlvpbul3dd3wnxfph"
+
+*** OPAL Configuration options
+checking if want to run code coverage... no
+checking if want to compile with branch probabilities... no
+checking if want to debug memory usage... no
+checking if want to profile memory usage... no
+checking if want developer-level compiler pickyness... no
+checking if want developer-level debugging code... no
+checking if want to developer-level timing framework... no
+checking if want to install project-internal header files... no
+checking if want pretty-print stacktrace... yes
+checking if want pty support... yes
+checking if want weak symbol support... yes
+checking if want dlopen support... yes
+checking for default value of mca_base_component_show_load_errors... enabled by default
+checking if want heterogeneous support... no
+checking if word-sized integers must be word-size aligned... no
+checking if want IPv6 support... no
+checking if want package/brand string... Open MPI em@lvhao Distribution
+checking if want ident string... 4.0.5
+checking if want to use an alternative checksum algo for messages... no
+checking maximum length of processor name... 256
+checking maximum length of error string... 256
+checking maximum length of object name... 64
+checking maximum length of info key... 36
+checking maximum length of info val... 256
+checking maximum length of port name... 1024
+checking maximum length of datarep string... 128
+checking if want getpwuid support... yes
+checking for zlib in... /data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/zlib-1.2.11-wi65tbqdpu6437b5tacunmf6krbr2pur and /data_1/spack/opt/spack/linux-ubuntu20.04-skylake/intel-2021.2.0/zlib-1.2.11-wi65tbqdpu6437b5tacunmf6krbr2pur/lib
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for library containing deflate... -lz
+checking if libz requires libnl v1 or v3... 
+checking will zlib support be built... yes
+checking __NetBSD__... no
+checking __FreeBSD__... no
+checking __OpenBSD__... no
+checking __DragonFly__... no
+checking __386BSD__... no
+checking __bsdi__... no
+checking __APPLE__... no
+checking __linux__... yes
+checking __sun__... no
+checking __sun... no
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking for struct sockaddr_in... yes
+checking if --with-cuda is set... not set (--with-cuda=no)
+checking whether CU_POINTER_ATTRIBUTE_SYNC_MEMOPS is declared... no
+checking whether cuPointerGetAttributes is declared... no
+checking if have cuda support... no
+checking if user requested PMI support... no
+checking if user requested internal PMIx support()... no
+checking for pmix.h in /usr... not found
+checking for pmix.h in /usr/include... not found
+configure: WARNING: discovered external PMIx version is less than internal version 3.x
+configure: WARNING: using internal PMIx
+
+*** ORTE Configuration options
+checking if want orterun "--prefix" behavior to be enabled by default... no
+
+*** OMPI Configuration options
+checking if want compile-time warnings inside of mpi.h... yes
+checking if want sparse process groups... no
+checking if want peruse support... no
+checking if want Fortran MPI bindings...  (try)
+checking if want C++ bindings... no
+checking if want MPI::SEEK_SET support... yes
+checking if want run-time MPI parameter checking... runtime
+
+*** OSHMEM Configuration options
+checking if want oshmem... yes
+checking if want SGI/Quadrics compatibility mode... yes
+checking if want OSHMEM API parameter checking... always
+checking for on_exit... yes
+checking if want pshmem... yes
+checking if want to build OSHMEM fortran bindings... yes
+no
+checking if want custom libmpi(_FOO) name... mpi
+checking if want wrapper compiler rpath support... yes
+checking if want wrapper compiler runpath support... no
+
+============================================================================
+== Compiler and preprocessor tests
+============================================================================
+
+*** C compiler and preprocessor
+checking for gcc... (cached) /data_1/spack/lib/spack/env/intel/icc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /data_1/spack/lib/spack/env/intel/icc accepts -g... (cached) yes
+checking for /data_1/spack/lib/spack/env/intel/icc option to accept ISO C89... (cached) none needed
+checking whether /data_1/spack/lib/spack/env/intel/icc understands -c and -o together... (cached) yes
+checking if /data_1/spack/lib/spack/env/intel/icc requires a flag for C11... no
+configure: verifying /data_1/spack/lib/spack/env/intel/icc supports C11 without a flag
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 _Thread_local... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 atomic variables... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 _Atomic keyword... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 _Generic keyword... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 _Static_assert... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 atomic_fetch_xor_explicit... yes
+configure: no flag required for C11 support
+checking if /data_1/spack/lib/spack/env/intel/icc  supports __thread... yes
+checking if /data_1/spack/lib/spack/env/intel/icc  supports C11 _Thread_local... yes
+checking for the C compiler vendor... intel
+checking for ANSI C header files... (cached) yes
+checking if /data_1/spack/lib/spack/env/intel/icc supports -finline-functions... yes
+checking if /data_1/spack/lib/spack/env/intel/icc supports -fno-strict-aliasing... yes
+configure: WARNING:  -fno-strict-aliasing has been added to CFLAGS
+checking if /data_1/spack/lib/spack/env/intel/icc supports -restrict... yes
+configure: WARNING:  -restrict has been added to CFLAGS
+checking if /data_1/spack/lib/spack/env/intel/icc supports __builtin_expect... yes
+checking if /data_1/spack/lib/spack/env/intel/icc supports __builtin_prefetch... yes
+checking if /data_1/spack/lib/spack/env/intel/icc supports __builtin_clz... yes
+checking for C optimization flags... -O3 -DNDEBUG -finline-functions -fno-strict-aliasing -restrict
+checking for Interix environment... no
+checking for C ident string support... #ident
+checking for int8_t... yes
+checking for uint8_t... yes
+checking for int16_t... yes
+checking for uint16_t... yes
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for int64_t... yes
+checking for uint64_t... yes
+checking for int128_t... no
+checking for __int128... yes
+checking for uint128_t... no
+checking for long long... yes
+checking for __float128... yes
+checking for long double... yes
+checking complex.h usability... yes
+checking complex.h presence... yes
+checking for complex.h... yes
+checking for float _Complex... yes
+checking for double _Complex... yes
+checking for long double _Complex... yes
+checking for intptr_t... yes
+checking for uintptr_t... yes
+checking for mode_t... yes
+checking for ssize_t... yes
+checking for ptrdiff_t... yes
+checking size of _Bool... 1
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of float... 4
+checking size of double... 8
+checking size of long double... 16
+checking size of __float128... 16
+checking size of float _Complex... 8
+checking size of double _Complex... 16
+checking size of long double _Complex... 32
+checking size of void *... 8
+checking size of size_t... 8
+checking size of ssize_t... 8
+checking size of ptrdiff_t... 8
+checking size of wchar_t... 4
+checking size of pid_t... 4
+checking size of atomic_short... 2
+checking size of atomic_int... 4
+checking size of atomic_long... 8
+checking size of atomic_llong... 8
+checking alignment of bool... 1
+checking alignment of int8_t... 1
+checking alignment of int16_t... 2
+checking alignment of int32_t... 4
+checking alignment of int64_t... 8
+checking alignment of char... 1
+checking alignment of short... 2
+checking alignment of wchar_t... 4
+checking alignment of int... 4
+checking alignment of long... 8
+checking alignment of long long... 8
+checking alignment of float... 4
+checking alignment of double... 8
+checking alignment of long double... 16
+checking alignment of __float128... 16
+checking alignment of float _Complex... 4
+checking alignment of double _Complex... 8
+checking alignment of long double _Complex... 16
+checking alignment of void *... 8
+checking alignment of size_t... 8
+checking for weak symbol support... yes
+checking for macro weak symbol support... yes
+checking for functional offsetof macro... yes
+
+*** C++ compiler and preprocessor
+checking whether we are using the GNU C++ compiler... yes
+checking whether /data_1/spack/lib/spack/env/intel/icpc accepts -g... yes
+checking dependency style of /data_1/spack/lib/spack/env/intel/icpc... gcc3
+checking how to run the C++ preprocessor... /data_1/spack/lib/spack/env/intel/icpc -E
+checking for the C++ compiler vendor... intel
+checking if /data_1/spack/lib/spack/env/intel/icpc supports -finline-functions... yes
+configure: WARNING:  -finline-functions has been added to CXXFLAGS
+checking if C and C++ are link compatible... yes
+checking for C++ optimization flags... -O3 -DNDEBUG -finline-functions
+checking size of bool... 1
+checking alignment of bool... (cached) 1
+
+*** C++ compiler and preprocessor
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether /data_1/spack/lib/spack/env/intel/icpc accepts -g... (cached) yes
+checking dependency style of /data_1/spack/lib/spack/env/intel/icpc... (cached) gcc3
+checking how to run the C++ preprocessor... /data_1/spack/lib/spack/env/intel/icpc -E
+checking if C++ compiler works... yes
+checking if /data_1/spack/lib/spack/env/intel/icpc supports -finline-functions... yes
+configure: WARNING:  -finline-functions has been added to CXXFLAGS
+checking if C and C++ are link compatible... (cached) yes
+checking for C++ optimization flags... -O3 -DNDEBUG -finline-functions
+checking size of bool... (cached) 1
+checking alignment of bool... (cached) 1
+checking if able to build the MPI C++ bindings... no
+checking if want C++ exception handling... skipped
+
+*** Compiler characteristics
+checking for __attribute__... yes
+checking for __attribute__(aligned)... yes
+checking for __attribute__(always_inline)... yes
+checking for __attribute__(cold)... yes
+checking for __attribute__(const)... yes
+checking for __attribute__(deprecated)... yes
+checking for __attribute__(deprecated_argument)... yes
+checking for __attribute__(error)... yes
+checking for __attribute__(format)... yes
+checking for __attribute__(format_funcptr)... yes
+checking for __attribute__(hot)... yes
+checking for __attribute__(malloc)... yes
+checking for __attribute__(may_alias)... yes
+checking for __attribute__(no_instrument_function)... yes
+checking for __attribute__(noinline)... yes
+checking for __attribute__(nonnull)... no
+checking for __attribute__(noreturn)... yes
+checking for __attribute__(noreturn_funcptr)... yes
+checking for __attribute__(packed)... yes
+checking for __attribute__(pure)... yes
+checking for __attribute__(sentinel)... no
+checking for __attribute__(unused)... yes
+checking for __attribute__(visibility)... yes
+checking for __attribute__(warn_unused_result)... yes
+checking for __attribute__(weak_alias)... yes
+checking for __attribute__(destructor)... yes
+checking for __attribute__(optnone)... yes
+checking for __attribute__(extension)... yes
+checking for compiler familyid... 2
+checking for compiler familyname... INTEL
+checking for compiler version... 2135410964
+checking for compiler version_str... 2021.20210228
+
+*** Java MPI bindings
+checking if want Java bindings... no
+
+*** OpenSHMEM profiling
+checking if pshmem will be enabled... yes (weak symbols supported)
+
+*** Assembler
+checking dependency style of /data_1/spack/lib/spack/env/intel/icc... gcc3
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking for fgrep... /bin/grep -F
+checking if .proc/endp is needed... no
+checking directive for setting text section... .text
+checking directive for exporting symbols... .globl
+checking for objdump... objdump
+checking if .note.GNU-stack is needed... yes
+checking suffix for labels... :
+checking prefix for global symbol labels... 
+checking prefix for lsym labels... .L
+checking prefix for function in .type... @
+checking if .size is needed... yes
+checking if .align directive takes logarithmic value... no
+checking for cmpxchg16b... yes
+checking if cmpxchg16b() gives correct results... yes
+checking if cmpxchg16b_result works... yes
+checking if /data_1/spack/lib/spack/env/intel/icc supports GCC inline assembly... yes
+checking for assembly format... default-.text-.globl-:--.L-@-1-0-1-1-1
+checking for assembly architecture... X86_64
+checking for builtin atomics... BUILTIN_NO
+
+*** Fortran compiler
+checking whether we are using the GNU Fortran compiler... no
+checking whether /data_1/spack/lib/spack/env/intel/ifort accepts -g... yes
+configure: WARNING: Open MPI now ignores the F77 and FFLAGS environment variables; only the FC and FCFLAGS environment variables are used.
+checking whether ln -s works... yes
+checking if Fortran compiler works... no
+**********************************************************************
+* It appears that your Fortran compiler is unable to produce working
+* executables.  A simple test application failed to properly
+* execute.  Note that this is likely not a problem with Open MPI,
+* but a problem with the local compiler installation.  More
+* information (including exactly what command was given to the
+* compiler and what error resulted when the command was executed) is
+* available in the config.log file in the Open MPI build directory.
+**********************************************************************
+configure: error: Could not run a simple Fortran program.  Aborting.
